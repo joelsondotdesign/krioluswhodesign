@@ -1,6 +1,6 @@
 # Kriolus Who Design
 
-![](https://drive.google.com/file/d/1ZubzljZq2636XZy117QyhLK74z6046g_/view?usp=sharing)
+![](https://drive.google.com/file/d/1ZubzljZq2636XZy117QyhLK74z6046g_/view)
 
 The website is built using Google Spreedsheet, [Next.js](https://nextjs.org/) and deployed at [Vercel](https://vercel.com/).
 
