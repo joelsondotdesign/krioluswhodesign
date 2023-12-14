@@ -27,8 +27,8 @@ export default function Home({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Brazilians Who Design | About</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>kriolus Who Design | About</title>
+        <link rel="icon" href="/favicon.png" />
         <MetaTags />
       </Head>
 
@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="Brazilians*who&nbsp;design&nbsp;is&nbsp;a"
+        text="Kriolus*who&nbsp;design&nbsp;is&nbsp;a"
         noAnimation
       />
 
@@ -51,7 +51,7 @@ export default function Home({ designers }) {
         <p className="f1 extend">
           <motion.span variants={item}>place to showcase</motion.span>{" "}
           <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Brazilian designers to</motion.span>{" "}
+          <motion.span variants={item}>Cabo Verdean designers to</motion.span>{" "}
           <motion.span variants={item}>the world. The goal</motion.span>{" "}
           <motion.span variants={item}>is to inspire new</motion.span>{" "}
           <motion.span variants={item}>designers to diversify</motion.span>{" "}
@@ -68,7 +68,7 @@ export default function Home({ designers }) {
         <div className="col-left">
           <h3>How can I nominate someone?</h3>
           <p>
-            If you know a Brazilian designer whose work or voice is valuable to
+            If you know a Cabo Verdean designer whose work or voice is valuable to
             the design industry, please{" "}
             <Link href="/nominate">
               <a className="link">fill out this form</a>
@@ -84,10 +84,10 @@ export default function Home({ designers }) {
 
           <h3>Why are featuring artists as well?</h3>
           <p>
-            We wanted to showcase not only contemporary Brazilian design, but
+            We wanted to showcase not only contemporary Cabo Verdean design, but
             also leverage all the visibility that this project is getting to
             celebrate the history of design in our country. Every time you
-            reload the website there’s a new featured Brazilian designer you can
+            reload the website there’s a new featured Cabo Verdean designer you can
             learn more about.
           </p>
 
@@ -151,7 +151,7 @@ export default function Home({ designers }) {
 
           <h3>How did you build this?</h3>
           <p>
-            Brazilians Who Design is{" "}
+            Kriolus Who Design is{" "}
             <a
               className="link"
               target="_blank"
@@ -192,26 +192,37 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Thanks to Caio Braga, Rafael Frota, Karina Sirqueira, Al Lucca,
+            Thanks to Zeh Fernandes, Christina Carrasquilla, Julia Coronel,
+            Milton Cabral, Helder de Pina, Kasey Randall,
             Bruno Oyama, Fabio Sasso, Daniel Furtado, Rodrigo Muniz, Lucas
-            Falcão, for the help of gathering the initial list of designers.
+            Falcão, for the help putting together this projectof gathering the initial list of designers.
           </p>
 
           <h3>Who’s behind this?</h3>
           <ul>
             <li>
-              <a className="link" href="https://twitter.com/zehf">
-                Zeh Fernandes
+              <a className="link" href="https://www.linkedin.com/in/joelsonleal/">
+                Joelson Leal
               </a>
             </li>
             <li>
-              <a className="link" href="http://twitter.com/fabriciot">
-                Fabricio Teixeira
+              <a className="link" href="https://www.linkedin.com/in/ivandroribeiro/">
+                Ivandro Ribeiro
               </a>
             </li>
             <li>
               <a className="link" href="http://uxdesign.cc/">
-                UX Collective
+                Deina Barros
+              </a>
+            </li>
+            <li>
+              <a className="link" href="http://uxdesign.cc/">
+                Helder Cardoso
+              </a>
+            </li>
+            <li>
+              <a className="link" href="http://uxdesign.cc/">
+                Iyomi Ashira
               </a>
             </li>
           </ul>
@@ -221,7 +232,7 @@ export default function Home({ designers }) {
           <p>
             If you’ve been added to the directory and would like to opt-out or
             make an edit to your profile, please send us a message at
-            hello@uxdesign.cc.
+            krioluswhodesign@gmail.com.
           </p>
           <h3>Why is my nomination taking so long to show?</h3>
           <p>

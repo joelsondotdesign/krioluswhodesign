@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: "Helvetica Now Display", "Helvetica Neue", "Helvetica";
-  background: #000;
+  background: #0e56f6;
   color: #fff;
   font-weight: 500;
   margin: 0;
@@ -73,7 +73,7 @@ table tbody tr {
 }
 
 table tbody tr:hover {
-  background: #111111;
+  background: #1065fc;
 }
 
 /* Rethink is the best aproch */
