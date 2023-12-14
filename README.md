@@ -1,4 +1,4 @@
-# Brazilians Who Design
+# Kriolus Who Design
 
 ![](https://www.dropbox.com/s/x5udk39ad57ayp5/brazilianswhodesignthumb.png?raw=1)
 
@@ -10,15 +10,15 @@ We encourage you to create your directory featured a list of any professionals y
 
 ### Link your spreedsheet
 
-1. Duplicate [this spreedhsheet template](https://docs.google.com/spreadsheets/d/12LLA-NoHin0zQfmpEblgMjd260bmriLMowBAH1QDOhI/edit)
-2. Follow [this guide](https://leerob.io/snippets/google-sheets#usage) to allow access to your Google account
+1. Duplicate [this spreedhsheet template](https://docs.google.com/spreadsheets/d/1ULgmyaHyzyRvR-0pPDsYXQfH4y-tGWhDmrUZi58ccgs/edit)
+2. Follow [this guide](https://nanonets.com/blog/how-to-use-google-sheets-as-a-database/) to allow access to your Google account
 3. Create a .env file and fill the informations below
 ```
 GOOGLE_PRIVATE_KEY=""
 GOOGLE_CLIENT_EMAIL=""
 ```
 4. Copy the id between /spreadsheets/ and /edit in the url: 
-	> [https://docs.google.com/spreadsheets/d/__12LLA-NoHin0zQfmpEblgMjd260bmriLMowBAH1QDOhI__/edit](https://docs.google.com/spreadsheets/d/12LLA-NoHin0zQfmpEblgMjd260bmriLMowBAH1QDOhI/edit)
+	> [https://docs.google.com/spreadsheets/d/__1ULgmyaHyzyRvR-0pPDsYXQfH4y-tGWhDmrUZi58ccgs__/edit](https://docs.google.com/spreadsheets/d/12LLA-NoHin0zQfmpEblgMjd260bmriLMowBAH1QDOhI/edit)
 5. Paste the ID in the file [`pages/api/designers.js`](https://github.com/zehfernandes/brazilianswhodesign/blob/main/pages/api/designers.js)
 
 ### Install the dependencies
