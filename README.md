@@ -1,6 +1,6 @@
 # Kriolus Who Design
 
-![](https://www.dropbox.com/s/x5udk39ad57ayp5/brazilianswhodesignthumb.png?raw=1)
+![](https://drive.google.com/file/d/1ZubzljZq2636XZy117QyhLK74z6046g_/view?usp=sharing)
 
 The website is built using Google Spreedsheet, [Next.js](https://nextjs.org/) and deployed at [Vercel](https://vercel.com/).
 
