@@ -9,12 +9,13 @@
   },
   "dependencies": {
     "babel-plugin-inline-react-svg": "^1.1.1",
-    "googleapis": "^91.0.0",
+    "eslint-config-next": "13",
     "framer-motion": "^1.11.1",
+    "googleapis": "^91.0.0",
     "js-yaml": "^3.13.1",
-    "next": "^12.1.0",
+    "next": "13",
     "next-absolute-url": "^1.2.2",
-    "react": "^17.0.2",
-    "react-dom": "16.13.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

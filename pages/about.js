@@ -175,11 +175,6 @@ export default function Home({ designers }) {
           </p>
           <ul>
             <li>
-              <a className="link" href="https://uruguayanswho.design/">
-                uruguayanswho.design
-              </a>
-            </li>
-            <li>
               <a className="link" href="https://spaniardswho.design/">
                 spaniardswho.design
               </a>
@@ -192,10 +187,10 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Thanks to Zeh Fernandes, Christina Carrasquilla, Julia Coronel,
+            Thanks to Julia Coronel,
             Milton Cabral, Helder de Pina, Kasey Randall,
-            Bruno Oyama, Fabio Sasso, Daniel Furtado, Rodrigo Muniz, Lucas
-            Falcão, for the help putting together this projectof gathering the initial list of designers.
+            for the help putting together this projectof gathering the initial list of designers.
+            Also, a big shoutout to Zeh Fernandes for all the support 
           </p>
 
           <h3>Who’s behind this?</h3>
@@ -211,17 +206,17 @@ export default function Home({ designers }) {
               </a>
             </li>
             <li>
-              <a className="link" href="http://uxdesign.cc/">
+              <a className="link" href="https://www.linkedin.com/in/deinabarros/">
                 Deina Barros
               </a>
             </li>
             <li>
-              <a className="link" href="http://uxdesign.cc/">
+              <a className="link" href="https://www.linkedin.com/in/helder-cardoso-9052b434/">
                 Helder Cardoso
               </a>
             </li>
             <li>
-              <a className="link" href="http://uxdesign.cc/">
+              <a className="link" href="https://www.iyomiashira.com/">
                 Iyomi Ashira
               </a>
             </li>
