@@ -38,7 +38,7 @@ export default function Home({ designers }) {
 
       <Title
         className="title m0 p0"
-        text="kriolus*who&nbsp;design&nbsp;is&nbsp;a"
+        text="Kriolus*who&nbsp;design&nbsp;is&nbsp;a"
         noAnimation
       />
 

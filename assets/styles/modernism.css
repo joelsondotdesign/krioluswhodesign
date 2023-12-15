@@ -31,7 +31,7 @@ a {
 
 h1,
 .f1 {
-  font-size: 7.625rem;
+  font-size: 5.625rem;
   letter-spacing: -0.03em;
   line-height: 100%;
   font-weight: 500;
@@ -56,7 +56,7 @@ table {
 table tbody td,
 table thead td {
   border: none;
-  border-bottom: 1px solid #1065fc;
+  border-bottom: 1px solid #363636;
 }
 
 table.large thead {
@@ -171,7 +171,7 @@ a.link:after {
 .sticky tr {
   position: fixed;
   width: 95vw;
-  background: #0e56f6;
+  background: #000;
   padding: 1.5rem 0 1rem 0;
   display: table;
   top: -4rem;
