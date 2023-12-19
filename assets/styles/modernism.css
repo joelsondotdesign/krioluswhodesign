@@ -31,7 +31,7 @@ a {
 
 h1,
 .f1 {
-  font-size: 5.625rem;
+  font-size: 8.625rem;
   letter-spacing: -0.03em;
   line-height: 100%;
   font-weight: 500;
@@ -56,7 +56,7 @@ table {
 table tbody td,
 table thead td {
   border: none;
-  border-bottom: 1px solid #363636;
+  border-bottom: 1px solid #1065fc;
 }
 
 table.large thead {
@@ -98,7 +98,7 @@ table tbody tr:last-child td {
 }
 
 .title {
-  padding-top: 26vh;
+  padding-top: 20vh;
 }
 
 .auxNav {
@@ -171,7 +171,7 @@ a.link:after {
 .sticky tr {
   position: fixed;
   width: 95vw;
-  background: #000;
+  background: #0e56f6;
   padding: 1.5rem 0 1rem 0;
   display: table;
   top: -4rem;

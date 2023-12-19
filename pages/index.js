@@ -183,7 +183,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
     <div className={className} onClick={onClick}>
       <Nav />
 
-      <Title className="title m0 p0" text="Kriolus*who&nbsp;design" />
+      <Title className="title m0 p0" text="kriolus*who&nbsp;design" />
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -221,10 +221,10 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
             <tbody>
               {designers.map((d, i) => (
                 <tr key={`${d.name}-${i}`}>
-                  <td><a href={d.link}>{d.name}</a></td>
-                  <td className="thsize-aux dn"><a href={d.link}>{d.location}</a></td>
-                  <td className="thsize-aux"><a href={d.link}>{d.expertise}</a></td>
-                  <td className="thsize-link"><a href={d.link}>→</a></td>
+                  <td><a target="_blank" href={d.link}>{d.name}</a></td>
+                  <td className="thsize-aux dn"><a target="_blank" href={d.link}>{d.location}</a></td>
+                  <td className="thsize-aux"><a target="_blank" href={d.link}>{d.expertise}</a></td>
+                  <td className="thsize-link"><a target="_blank" href={d.link}>→</a></td>
                 </tr>
               ))}
             </tbody>
@@ -233,7 +233,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
       </motion.div>
       <style jsx>{`
         .tableContent {
-          padding-top: 18vh;
+          padding-top: 16vh;
         }
 
         .filterTable {

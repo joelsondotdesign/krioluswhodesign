@@ -7,28 +7,14 @@ export default function Nominate({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Brazilians Who Design | Nomiate</title>
+        <title>Kriolus Who Design | Nominate</title>
         <link rel="icon" href="/favicon.png" />
         <MetaTags />
       </Head>
 
-      <div style={{ width: "100%", position: "relative", height: "100vh" }}>
-        <iframe
-          id="typeform-full"
-          width="100%"
-          height="100%"
-          frameBorder="0"
-          allow="camera; microphone; autoplay; encrypted-media;"
-          src="https://form.typeform.com/to/bbrPUqMe"
-        ></iframe>{" "}
-        <script
-          type="text/javascript"
-          src="https://embed.typeform.com/embed.js"
-        ></script>
-        <Analytics />
-      </div>
+      <div data-tf-live="01HHPM2BST8FF8NZ3CZSC1VBPC"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
-      <Link href="/" shallow={true}>
+      <Link href="/" shallow={true} legacyBehavior>
         <a className="auxNav arrowback">←</a>
       </Link>
       <style jsx global>{`

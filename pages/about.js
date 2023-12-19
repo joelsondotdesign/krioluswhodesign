@@ -32,13 +32,13 @@ export default function Home({ designers }) {
         <MetaTags />
       </Head>
 
-      <Link href="/" shallow={true}>
+      <Link href="/" shallow={true} legacyBehavior>
         <a className="auxNav arrowback">←</a>
       </Link>
 
       <Title
         className="title m0 p0"
-        text="Kriolus*who&nbsp;design&nbsp;is&nbsp;a"
+        text="kriolus*who&nbsp;design&nbsp;is&nbsp;a"
         noAnimation
       />
 
@@ -59,7 +59,7 @@ export default function Home({ designers }) {
             their references, experienced designers
           </motion.span>{" "}
           <motion.span variants={item}>
-            to diversity their network, and companies to diversify their teams.
+            to diversify their network, and companies to diversify their teams.
           </motion.span>
         </p>
       </motion.div>
@@ -70,7 +70,7 @@ export default function Home({ designers }) {
           <p>
             If you know a Cabo Verdean designer whose work or voice is valuable to
             the design industry, please{" "}
-            <Link href="/nominate">
+            <Link href="/nominate" legacyBehavior>
               <a className="link">fill out this form</a>
             </Link>{" "}
             with their information and a few words about why you're nominating
