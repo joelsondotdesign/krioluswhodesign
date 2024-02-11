@@ -15,7 +15,7 @@
     "framer-motion": "^1.11.1",
     "googleapis": "^91.0.0",
     "js-yaml": "^3.13.1",
-    "next": "13",
+    "next": "^14.1.0",
     "next-absolute-url": "^1.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
