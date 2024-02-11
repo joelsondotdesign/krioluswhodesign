@@ -8,7 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0",
     "babel-plugin-inline-react-svg": "^1.1.1",
+    "eslint": "^7.23.0",
     "eslint-config-next": "13",
     "framer-motion": "^1.11.1",
     "googleapis": "^91.0.0",

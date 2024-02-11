@@ -18,6 +18,11 @@ export async function getStaticProps() {
 
   const res = await fetch(`${origin}/api/designers`);
   console.log(res)
+
+  if (!res.ok) {
+    throw new Error(`Failed to fetch data. Status: ${res.status}`);
+  }
+
   const designers = await res.json();
 
   let uniqueExpertise = new Set();
