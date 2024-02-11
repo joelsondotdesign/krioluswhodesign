@@ -1,4 +1,5 @@
 import { google } from "googleapis";
+require('dotenv').config();
 
 export default async (req, res) => {
   try {
