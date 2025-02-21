@@ -13,6 +13,7 @@ export async function getStaticProps() {
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
       : "https://krioluswhodesign-teal.vercel.app";
+      : "https://krioluswhodesign.cv";
 
   console.log(origin)
 
