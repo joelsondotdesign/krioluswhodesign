@@ -190,7 +190,14 @@ export default function Home({ designers }) {
             Thanks to Fábio Alves, Julia Coronel,
             Milton Cabral, Helder de Pina, Kasey Randall,
             for the help putting together this project of gathering the initial list of designers.
-            Also, a special shoutout to <a className="link" href="https://x.com/zehf" target="_blank">Zeh Fernandes</a> for all the support 
+            Also, a special shoutout to 
+            <a 
+            className="link"
+            target="_blank"
+            href="https://x.com/zehf" >
+              Zeh Fernandes
+              </a>
+              for all the support.
           </p>
 
           <h3>Who’s behind this?</h3>
