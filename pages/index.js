@@ -9,15 +9,13 @@ import Analytics from "../components/Analytics.js";
 import FilterSVG from "../components/Icons/FilterSVG.js";
 
 export async function getStaticProps() {
+  // Vercel sets VERCEL_ENV to "preview" for preview deployments
   const origin =
-    process.env.NODE_ENV !== "production"
-      ? "http://localhost:3000"
-      : "https://krioluswhodesign.cv";
-
-  console.log(origin)
+    process.env.VERCEL_ENV === "preview"
+      ? "https://krioluswhodesign-teal.vercel.app"   // preview URL
+      : "https://krioluswhodesign.cv";               // production URL
 
   const res = await fetch(`${origin}/api/designers`);
-  console.log(res)
 
   if (!res.ok) {
     throw new Error(`Failed to fetch data. Status: ${res.status}`);
