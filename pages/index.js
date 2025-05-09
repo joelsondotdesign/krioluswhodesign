@@ -11,8 +11,8 @@ import FilterSVG from "../components/Icons/FilterSVG.js";
 export async function getStaticProps() {
   const origin =
     process.env.NODE_ENV !== "production"
-      ? "http://localhost:3000"
-      : `https://${process.env.VERCEL_URL}`;
+      ? "https://krioluswhodesign-teal.vercel.app"
+      : "https://krioluswhodesign.cv";
 
   console.log(origin)
 
