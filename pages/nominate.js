@@ -22,7 +22,7 @@ export default function Nominate({ designers }) {
       <Analytics />
 
       <Link href="/" shallow={true} legacyBehavior>
-        <a className="auxNav arrowback">←</a>
+        <a className="auxNav arrowback" style={{ zIndex: "99999", }}>←</a>
       </Link>
 
       <style jsx global>{`
