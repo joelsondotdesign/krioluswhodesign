@@ -190,30 +190,23 @@ export default function Home({ designers }) {
             Thanks to Fábio Alves, Julia Coronel,
             Milton Cabral, Helder de Pina, Kasey Randall,
             for the help putting together this project of gathering the initial list of designers.
-            Also, a special shoutout to 
-            <a 
-            className="link"
-            target="_blank"
-            href="https://x.com/zehf" >
-              Zeh Fernandes
-              </a>
-              for all the support.
+            Also, a special shoutout to <a className="link" target="_blank" href="https://x.com/zehf" >Zeh Fernandes</a> for all the support.
           </p>
 
           <h3>Who’s behind this?</h3>
           <ul>
             <li>
-              <a className="link" href="https://www.linkedin.com/in/joelsonleal/"target="_blank">
+              <a className="link" href="https://www.linkedin.com/in/joelsonleal/" target="_blank">
                 Joelson Leal
               </a>
             </li>
             <li>
-              <a className="link" href="https://www.linkedin.com/in/ivandroribeiro/">
+              <a className="link" href="https://www.linkedin.com/in/ivandroribeiro/" target="_blank">
                 Ivandro Ribeiro
               </a>
             </li>
             <li>
-              <a className="link" href="https://www.iyomiashira.com/">
+              <a className="link" href="https://www.iyomiashira.com/" target="_blank">
                 Iyomi Ashira
               </a>
             </li>
