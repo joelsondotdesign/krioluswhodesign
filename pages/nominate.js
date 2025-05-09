@@ -9,6 +9,9 @@ export default function Nominate({ designers }) {
       <Head>
         <title>Kriolus Who Design | Nominate</title>
         <link rel="icon" href="/favicon.png" />
+
+        <script src="//embed.typeform.com/next/embed.js"></script>
+
         <MetaTags />
       </Head>
       
