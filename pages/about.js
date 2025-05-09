@@ -51,8 +51,8 @@ export default function Home({ designers }) {
         <p className="f1 extend">
           <motion.span variants={item}>place to showcase</motion.span>{" "}
           <motion.span variants={item}>the work of talented</motion.span>{" "}
-          <motion.span variants={item}>Cabo Verdean designers to</motion.span>{" "}
-          <motion.span variants={item}>the world. The goal</motion.span>{" "}
+          <motion.span variants={item}>Cabo Verdean designers to the world.</motion.span>{" "}
+          <motion.span variants={item}>The goal</motion.span>{" "}
           <motion.span variants={item}>is to inspire new</motion.span>{" "}
           <motion.span variants={item}>designers to diversify</motion.span>{" "}
           <motion.span variants={item}>
@@ -187,10 +187,10 @@ export default function Home({ designers }) {
           </ul>
           <br />
           <p>
-            Thanks to Julia Coronel,
+            Thanks to Fábio Alves, Julia Coronel,
             Milton Cabral, Helder de Pina, Kasey Randall,
-            for the help putting together this projectof gathering the initial list of designers.
-            Also, a big shoutout to Zeh Fernandes for all the support 
+            for the help putting together this project of gathering the initial list of designers.
+            Also, a special shoutout to <a href="https://x.com/zehf">Zeh Fernandes</a> for all the support 
           </p>
 
           <h3>Who’s behind this?</h3>
@@ -203,16 +203,6 @@ export default function Home({ designers }) {
             <li>
               <a className="link" href="https://www.linkedin.com/in/ivandroribeiro/">
                 Ivandro Ribeiro
-              </a>
-            </li>
-            <li>
-              <a className="link" href="https://www.linkedin.com/in/deinabarros/">
-                Deina Barros
-              </a>
-            </li>
-            <li>
-              <a className="link" href="https://www.linkedin.com/in/helder-cardoso-9052b434/">
-                Helder Cardoso
               </a>
             </li>
             <li>
