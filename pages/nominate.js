@@ -12,11 +12,9 @@ export default function Nominate({ designers }) {
         <MetaTags />
       </Head>
       
-      <div style={{ width: "100%", position: "relative", height: "100vh" }}>
 
-        <div data-tf-live="01HHPM2BST8FF8NZ3CZSC1VBPC"></div><script src="//embed.typeform.com/next/embed.js"></script>
+      <div data-tf-live="01HHPM2BST8FF8NZ3CZSC1VBPC" style={{ width: "100%", position: "relative", height: "100vh" }}></div><script src="//embed.typeform.com/next/embed.js"></script>
 
-      </div>
 
       <Analytics />
 
