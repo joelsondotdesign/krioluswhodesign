@@ -13,7 +13,7 @@ export default function Nominate({ designers }) {
       </Head>
       
 
-      <div data-tf-live="01HHPM2BST8FF8NZ3CZSC1VBPC" style={{ width: "100%", minHeight: "100svh", border: 0 }}></div><script src="//embed.typeform.com/next/embed.js"></script>
+      <div data-tf-live="01HHPM2BST8FF8NZ3CZSC1VBPC" style={{ width: "100%", position: "relative", minHeight: "100vh", border: 0 }}></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 
       <Analytics />
